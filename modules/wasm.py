@@ -607,6 +607,7 @@ def run_task_generate():
                 "ALLOW_MEMORY_GROWTH=1",
                 "-sMODULARIZE",
                 "-sEXPORT_NAME=PDFiumModule",
+                "-sALLOW_TABLE_GROWTH",
                 "-std=c++11",
                 "-Wall",
                 "--no-entry",
