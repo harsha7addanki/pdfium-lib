@@ -592,6 +592,7 @@ def run_task_generate():
                 "-s",
                 f"EXPORTED_FUNCTIONS={complete_functions_list}",
                 "-s",
+                # TODO: Just a location for ERM's so i can add more in the future
                 'EXPORTED_RUNTIME_METHODS=\'["ccall", "cwrap", "wasmExports", "HEAP8", "HEAP16", "HEAP32", "HEAPU8", "HEAPU16", "HEAPU32", "HEAPF32", "HEAPF64", "addFunction"]\'',
                 "custom.cpp",
                 lib_file_out,
